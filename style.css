@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: 'League Spartan', sans-serif;
+}
+.main {
+    background-color: white;
+    margin: 5% 25%;
+    padding: 5%;
+}
+.header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 5%;
+    color: hsl(300, 43%, 22%);
+}
+.header p {
+    font-size: 0.7rem;
+    padding-bottom: 8%;
+    color:  hsl(300, 43%, 22%);
+}
+.mini-groupA, .mini-groupB, .mini-groupC {
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    font-size: 0.6rem;
+    padding: 3%;
+    margin: 4% 0%;
+    color: hsl(303, 10%, 53%);
+}
+.sectionA, .sectionB, .sectionC {
+    background-color: hsl(300, 43%, 22%);
+    padding: 10% 7%;
+    margin: 15% 0%;
+    border-radius: 2%;
+}
+.sub-secA, .sub-secB, .sub-secC {
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.4rem;
+}
+.sub-secA h2, .sub-secB h2, .sub-secC h2 {
+    padding-left: 15%;
+    font-size: 0.7rem;
+    color: white;
+}
+.sectionA p, .sectionB p, .sectionC p {
+    font-size: 0.6rem;
+    color: white;
+    word-spacing: 0.2rem;
+}
+.sectionA img, .sectionB img, .sectionC img {
+    width: 15%;
+    border-radius: 50%;
+}
+.main span {
+    color: hsl(333, 80%, 67%);
+    text-transform: capitalize;
+}
+.attribution {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+
+  @media (min-width:770px) {
+    .main {
+        margin: 0% 1%;
+    }
+    .top-group {
+        display: flex;
+        flex-direction: row;
+    }
+    .header {
+        width: 50%;
+    }
+    .header h1 {
+        font-size: 2.5rem;
+        margin-right: 60%;
+        padding: 5% 0%;
+        text-align: left;
+    }
+    .header p {
+        font-size: 1.1rem;
+        margin-right: 5%;
+    }
+    .group-star {
+        width: 50%;
+    }
+    .mini-groupA {
+        margin-left: 10%;
+        margin-right: 25%;
+    }
+    .mini-groupB {
+        margin-left: 20%;
+        margin-right: 15%;
+    }
+    .mini-groupC {
+        margin-left: 30%;
+        margin-right: 10%;
+    }
+    .below-group {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1%;
+        padding: 0% 1%;
+        padding-bottom: 1%;
+    }
+    .sectionA {
+        margin-top: 5%;
+        width: 33%;
+        margin-right: 2%;
+        margin-bottom: 30%;
+    }
+    .sectionB {
+        margin-top: 10%;
+        width: 33%;
+        margin-right: 2%;
+        margin-bottom: 25%;
+    }
+    .sectionC {
+        margin-top: 15%;
+        width: 33%;
+        margin-bottom: 20%;
+    }
+    .sectionA, .sectionB, .sectionC {
+        background-color: hsl(300, 43%, 22%);
+        padding: 4%;
+        border-radius: 2%;
+    }
+    .sub-secA h2,
+    .sub-secB h2,
+    .sub-secC h2 {
+        font-size: 1.2rem;
+    }
+    .sectionA p,
+    .sectionB p,
+    .sectionC p {
+        font-size: 1rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
